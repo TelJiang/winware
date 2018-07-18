@@ -14,8 +14,8 @@ winware::~winware()
 
 void winware::displayCameraNum()
 {
-	ui.CameraBrowser->insertPlainText("num: " + tr("%1").arg(camera_1.getCameraThreadInfo()) + "\n");
-	ui.CameraBrowser->verticalScrollBar()->setValue(ui.CameraBrowser->verticalScrollBar()->maximum());
+	ui.CameraTextEdit->insertPlainText("num: " + tr("%1").arg(camera_1.getCameraThreadInfo()) + "\n");
+	ui.CameraTextEdit->verticalScrollBar()->setValue(ui.CameraTextEdit->verticalScrollBar()->maximum());
 }
 
 void winware::on_pushButton_clicked()

@@ -17,7 +17,7 @@ CameraThread::~CameraThread()
 
 int CameraThread::getCameraThreadInfo()
 {
-	int a=0;
+	int a = 0;
 	if (mutex.tryLock())
 	{
 		a = num;
