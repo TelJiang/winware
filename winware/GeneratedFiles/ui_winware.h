@@ -164,6 +164,7 @@ public:
     void retranslateUi(QMainWindow *winwareClass)
     {
         winwareClass->setWindowTitle(QApplication::translate("winwareClass", "winware", Q_NULLPTR));
+		winwareClass->setWindowIcon(QIcon(":/winware/test.ico"));
         groupBox->setTitle(QString());
         OpenCamera->setText(QApplication::translate("winwareClass", "OpenCamera", Q_NULLPTR));
         CloseCamera->setText(QApplication::translate("winwareClass", "CloseCamera", Q_NULLPTR));

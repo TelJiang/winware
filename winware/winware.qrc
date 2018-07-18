@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="winware">
+    <qresource prefix="/winware">
+        <file>test.ico</file>
     </qresource>
 </RCC>
